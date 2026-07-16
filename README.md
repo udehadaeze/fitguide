@@ -16,7 +16,7 @@ The frontend uses React, TypeScript, Vite, responsive CSS, Vitest and React Test
 
 ## Repository structure
 
-`backend` contains the API, dataset, recommendation engine and backend tests. `frontend` contains the React application and interaction tests. `evaluation` contains the frozen profiles, predefined relevance rules, raw result CSV, JSON summary and written report. `docs` contains dataset, algorithm, API, testing and screenshot documentation. `research-paper` contains the source matrix, planning documents and traceability controls.
+`backend` contains the API, dataset, recommendation engine and backend tests. `frontend` contains the React application and interaction tests. `evaluation` contains the frozen profiles, predefined relevance rules, raw result CSV, JSON summary and written report.
 
 ## Backend setup
 
@@ -55,28 +55,6 @@ Movement conflicts, unavailable equipment, incompatible location, excessive diff
 ## Actual testing
 
 The final backend suite completed 31 tests successfully. It covers dataset integrity, every required movement restriction, equipment, location, level, duration, exact exclusions, ordering, determinism, routine diversity, explanations, empty results, validation and endpoints. The frontend suite completed eight interaction tests successfully, and the TypeScript production build completed. Detailed outputs are stored in `docs/testing.md` and `docs/frontend-testing.md`.
-
-## Actual offline evaluation
-
-Eight profiles and their relevance conditions were fixed before execution. P08 was deliberately over-constrained and correctly returned no exercise rather than weakening restrictions. Across 35 recommendations from the seven non-empty profiles, measured results were:
-
-| Metric | Result |
-|---|---:|
-| Hard-constraint satisfaction | 100.00% |
-| Micro Precision@5 | 0.6571 |
-| Macro Precision@5 | 0.6571 |
-| Goal relevance | 77.14% |
-| Catalogue coverage | 33.75% (27/80) |
-| Mean category diversity | 0.8286 |
-| Mean body-area diversity | 1.0000 |
-| Mean movement-pattern diversity | 1.0000 |
-| Mean routine-role diversity | 0.8857 |
-| Explanation consistency | 100.00% |
-| Deterministic profiles | 8/8 |
-
-Four hundred timed in-process API requests had a mean of 4.896 ms, a median of 5.037 ms, a minimum of 1.948 ms and a maximum of 30.277 ms on macOS arm64 with Python 3.12.13. These timings exclude a real network, browser rendering, concurrency and deployment overhead.
-
-The results measure internal agreement with synthetic fields and manually defined relevance criteria. They do not establish clinical safety, correct technique, user satisfaction, novelty, serendipity or health outcomes. Full profile-level results and limitations are in `evaluation/evaluation_report.md`.
 
 ## Known limitations
 
