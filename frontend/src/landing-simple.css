@@ -1,0 +1,19 @@
+.hero-simple {
+  display: block;
+  min-height: auto;
+  padding-block: 6.5rem 4.5rem;
+}
+
+.hero-simple .hero-copy {
+  max-width: 960px;
+}
+
+.hero-simple .hero-copy p {
+  max-width: 760px;
+}
+
+@media (max-width: 600px) {
+  .hero-simple {
+    padding-block: 4rem 3rem;
+  }
+}

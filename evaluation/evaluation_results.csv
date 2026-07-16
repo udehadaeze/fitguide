@@ -1,0 +1,36 @@
+profile_id,profile_label,routine_position,routine_role,exercise_id,exercise_name,score,constraint_compliant,predefined_relevant,goal_relevant,explanation_consistent,category,primary_body_area,movement_pattern
+P01,Beginner home low impact,1,prepare,EX047,Standing Torso Rotations,0.8088,True,True,True,True,mobility,core,rotation
+P01,Beginner home low impact,2,energise,EX001,Walking in Place,0.8129,True,True,True,True,cardio,full_body,march
+P01,Beginner home low impact,3,strengthen,EX026,Supported Reverse Lunges,0.7182,True,True,True,True,strength,legs,lunge
+P01,Beginner home low impact,4,stabilise,EX056,Seated Knee Lifts,0.6817,True,True,True,True,core,core,knee_lift
+P01,Beginner home low impact,5,recover,EX077,Standing Shake-Out,0.6649,True,True,True,True,relaxation,full_body,shake
+P02,Intermediate gym strength,1,prepare,EX050,Cat-Cow Stretch,0.3156,True,False,False,True,mobility,back,spinal_mobility
+P02,Intermediate gym strength,2,primary,EX035,One-Arm Dumbbell Rows,0.8562,True,True,True,True,strength,back,pull
+P02,Intermediate gym strength,3,primary,EX019,Kneeling Push-Ups,0.7457,True,True,True,True,strength,chest,push
+P02,Intermediate gym strength,4,support,EX053,Forearm Plank,0.7256,True,True,True,True,core,core,plank
+P02,Intermediate gym strength,5,recover,EX065,Child's Pose,0.3156,True,False,False,True,flexibility,back,spinal_stretch
+P03,Outdoor cardiovascular,1,prepare,EX047,Standing Torso Rotations,0.2462,True,False,False,True,mobility,core,rotation
+P03,Outdoor cardiovascular,2,primary,EX011,Outdoor Brisk Walk,0.8078,True,True,True,True,cardio,full_body,walk
+P03,Outdoor cardiovascular,3,primary,EX006,Low-Impact Step Jacks,0.682,True,True,True,True,cardio,full_body,lateral_step
+P03,Outdoor cardiovascular,4,support,EX027,Forward Lunges,0.4406,True,False,False,True,strength,legs,lunge
+P03,Outdoor cardiovascular,5,recover,EX075,Box Breathing,0.2522,True,False,False,True,relaxation,core,breathing
+P04,Home mobility without floor work,1,prepare,EX049,Ankle Circles,0.7647,True,True,True,True,mobility,legs,ankle_circle
+P04,Home mobility without floor work,2,develop,EX061,Wall Calf Stretch,0.7562,True,True,True,True,flexibility,legs,calf_stretch
+P04,Home mobility without floor work,3,develop,EX080,Wall Angels,0.7542,True,True,True,True,mobility,upper_body,wall_slide
+P04,Home mobility without floor work,4,balance,EX069,Tandem Stance,0.6305,True,False,True,True,balance,legs,static_balance
+P04,Home mobility without floor work,5,recover,EX058,Seated Hamstring Stretch,0.7491,True,True,True,True,flexibility,legs,hamstring_stretch
+P05,No overhead or single-leg balance,1,prepare,EX047,Standing Torso Rotations,0.4662,True,False,True,True,mobility,core,rotation
+P05,No overhead or single-leg balance,2,energise,EX002,Brisk Walking in Place,0.7784,True,True,True,True,cardio,full_body,march
+P05,No overhead or single-leg balance,3,strengthen,EX044,Resistance-Band Side Steps,0.6621,True,True,True,True,strength,hips,lateral_step
+P05,No overhead or single-leg balance,4,stabilise,EX056,Seated Knee Lifts,0.4765,True,False,True,True,core,core,knee_lift
+P05,No overhead or single-leg balance,5,recover,EX077,Standing Shake-Out,0.461,True,False,True,True,relaxation,full_body,shake
+P06,Stress reduction,1,prepare,EX045,Arm Circles,0.6379,True,True,True,True,mobility,shoulders,arm_circle
+P06,Stress reduction,2,move,EX046,Shoulder Rolls,0.6379,True,True,True,True,mobility,shoulders,shoulder_roll
+P06,Stress reduction,3,release,EX058,Seated Hamstring Stretch,0.6584,True,True,True,True,flexibility,legs,hamstring_stretch
+P06,Stress reduction,4,steady,EX056,Seated Knee Lifts,0.494,True,False,False,True,core,core,knee_lift
+P06,Stress reduction,5,recover,EX075,Box Breathing,0.8218,True,True,True,True,relaxation,core,breathing
+P07,Advanced endurance with jumping excluded,1,prepare,EX047,Standing Torso Rotations,0.1977,True,False,False,True,mobility,core,rotation
+P07,Advanced endurance with jumping excluded,2,primary,EX015,Fast Stationary Cycling,0.7369,True,True,True,True,cardio,legs,cycle
+P07,Advanced endurance with jumping excluded,3,primary,EX024,Dumbbell Front Squats,0.758,True,True,True,True,strength,legs,squat
+P07,Advanced endurance with jumping excluded,4,support,EX020,Standard Push-Ups,0.6473,True,True,True,True,strength,chest,push
+P07,Advanced endurance with jumping excluded,5,recover,EX078,Supine Relaxation,0.218,True,False,False,True,relaxation,full_body,rest
