@@ -1,6 +1,6 @@
 # FitGuide Recommender
 
-FitGuide is an individual university prototype that recommends a short general-wellness exercise routine from a person's goal, fitness level, available equipment, time preference and self-declared movement restrictions. It uses a transparent content-based pipeline: hard compatibility filtering, shared feature vectors, cosine similarity, documented score adjustments, movement-pattern diversification and routine-role assembly.
+FitGuide is my individual university prototype that recommends a short general-wellness exercise routine from a person's goal, fitness level, available equipment, time preference and self-declared movement restrictions. It uses a transparent content-based pipeline: hard compatibility filtering, shared feature vectors, cosine similarity, documented score adjustments, movement-pattern diversification and routine-role assembly.
 
 FitGuide is not a medical device, diagnostic service, physiotherapy tool or substitute for a qualified professional. Anyone with an injury, chronic condition, pregnancy, cardiovascular concern, severe pain or uncertainty should seek appropriate professional advice before exercising. A compatibility score is a relative catalogue-ranking value, not a probability of safety or benefit.
 
